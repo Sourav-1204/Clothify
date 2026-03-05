@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-border: #ccc;
+  --color-primary-red: #ea2e0e;
+}
+
+@layer base {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  * {
+    scrollbar-width: none;
+  }
+}
+
+#root {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
+
+.border {
+  border: 1px solid #aaa;
+}
